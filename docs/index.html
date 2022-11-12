@@ -15,17 +15,16 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="images/logo-small.png" alt="Immersive-env-logo" width="22" height="24"> ImmersiveEnvs</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="images/logo-small.png" alt="Immersive-env-logo" width="22" height="24"> ImmersiveEnvs</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button"><i class="fa-solid fa-circle-question"></i> ABOUT</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa-solid fa-circle-question"></i> ABOUT</a>
       <a href="#projects" class="w3-bar-item w3-button"><i class="fa-solid fa-briefcase"></i> PROJECTS</a>
       <a href="#students" class="w3-bar-item w3-button"><i class="fa-sharp fa-solid fa-people-group"></i> STUDENTS</a>
-      <a href="#blog" class="w3-bar-item w3-button"><i class="fa-sharp fa-solid fa-people-group"></i> BLOG</a>
+      <a href="blog.html" class="w3-bar-item w3-button"><i class="fa-sharp fa-solid fa-people-group"></i> BLOG</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
@@ -35,10 +34,10 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
   <a href="#students" onclick="w3_close()" class="w3-bar-item w3-button">STUDENTS</a>
-  <a href="#blog" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
+  <a href="blog.html" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
@@ -64,8 +63,7 @@
 <div class="w3-container" style="padding:128px 16px" id="projects">
   <h3 class="w3-center">PROJECTS</h3>
   <p class="w3-center w3-large">These are some of the work we have done.</p>
-
-  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m3">
       <div class="w3-row-padding">
         <img src="images/projects/projSample.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="VR GES">
@@ -99,10 +97,166 @@
       </div>
     </div>
   </div>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m3">
+        <div class="w3-row-padding">
+          <img src="images/projects/projSample.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="VR GES">
+        </div>
+        <div class="w3-center w3-row-padding">
+          Project 1 name
+        </div>
+      </div>
+      <div class="w3-col l3 m3">
+        <div class="w3-row-padding">
+          <img src="images/projects/projSample.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legacy Bias">
+        </div>
+        <div class="w3-center w3-row-padding">
+          Project 2 name
+        </div>
+      </div>
+      <div class="w3-col l3 m3">
+        <div class="w3-row-padding">
+          <img src="images/projects/projSample.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comparison">
+        </div>
+        <div class="w3-center w3-row-padding">
+          Project 3 name
+        </div>
+      </div>
+      <div class="w3-col l3 m3">
+        <div class="w3-row-padding">
+          <img src="images/projects/projSample.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Designer Hands">
+        </div>
+        <div class="w3-center w3-row-padding">
+          Project 4 name
+        </div>
+      </div>
+    </div>
+    <div>
+      <br>
+    </div>
+</div>
 
-  <div>
-    <br>
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="students">
+  <h3 class="w3-center">STUDENTS</h3>
+  <p class="w3-center w3-large">Students @ ImmersiveEnvs</p>
+  <div class="w3-row"><br>
+    <div class="w3-quarter">
+      <img src="images/students/xingjianLeng1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Xingjian Leng</h4>
+      <!-- <p>Australian National University</p>
+      <p>Australian National University</p> -->
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/leiZhang1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Lei Zhang</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/yichenWang.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Yichen Wang</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/yuanfeiFan.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Yuanfei Fan</h4>
+    </div>
   </div>
+  <div class="w3-row"><br>
+    <div class="w3-quarter">
+      <img src="images/students/siyuFang.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Siyu Fang</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/yushuGao1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Yushu Gao</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/yangfeiGao.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Yangfei Gao</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/yuxuanHu1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Yuxuan Hu</h4>
+    </div>
+  </div>
+  <div class="w3-row"><br>
+    <div class="w3-quarter">
+      <img src="images/students/haotianWeng.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Haotian Weng</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/duongPham.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Duong Pham</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/guanghaoTan1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Guanghao Tan</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/calvinChan1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Calvin Chan</h4>
+    </div>
+  </div>
+  <div class="w3-row"><br>
+    <div class="w3-quarter">
+      <img src="images/students/dijiang.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Di Jiang</h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/students/bojieJia.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h4>Bojie Jia</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Like to join us to explore immersive environments? Send us a message:</p>
+  <div style="margin-top:40px">
+    <!-- <div class="w3-row w3-center"><br>
+      <div class="w3-half">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Canberra, Australia</p>
+      </div>
+      <div class="w3-half">
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> email goes here</p>
+      </div>
+    </div> -->
+    <br>
+    <form action="https://formspree.io/f/mrgdrwqy" method="POST" enctype="multipart/form-data">
+      <p><input class="w3-input w3-border" type="text" placeholder="Your First and Last Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="email" placeholder="Your email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>Your CV (Optional)<input class="w3-input w3-border" type="file" placeholder="YourCV" required name="Upload"></p>
+      <p class="w3-center">
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i>  SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+
+
+<!-- Contact us -->
+
+
+<!-- <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+
+    <form action="https://formspree.io/f/mgepllwg" method="POST" >
+        <input type="hidden" name="_subject" value="Contact request from personal website"/>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name" class="box" required>
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name" class="box" required>
+        <label for="email"></label>
+        <input type="email" id="email" name="_replyto" placeholder="Your email" class="box" required>
+        <label for="subject"></label>
+        <textarea id="subject" name="subject" placeholder="Write your message..." style="height:100px"
+                  required></textarea>
+        <input type="submit" class="btn" value="Submit">
+    </form>
+</div> -->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
