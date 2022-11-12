@@ -16,3 +16,16 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+
+
+/*set max width to your preferred mobile width.  I used 719 because your large banner is 720.*/
+@media (max-width: 719px) {
+    .lg {display:none;}
+    .sm {display:initial;}
+}
+
+/*set min width to be larger than the css rule above.*/
+@media (min-width: 720px) {
+    .lg {display:initial;}
+    .sm {display:none;}
+}
