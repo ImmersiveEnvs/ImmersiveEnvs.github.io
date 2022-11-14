@@ -29,3 +29,36 @@ body, html {
     .lg {display:initial;}
     .sm {display:none;}
 }
+
+/*Special Notices messages Styling Starts*/
+
+.banner {
+  background: #f50909;
+}
+
+.banner__content {
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: "Quicksand", sans-serif;
+}
+
+.banner__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner__text,
+.banner__close > span {
+  color: #ffffff;
+}
+
+/*Special Notices messages Styling Ends*/
